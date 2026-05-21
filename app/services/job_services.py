@@ -1,5 +1,4 @@
 from sqlalchemy.orm import Session
-
 from app.models.job import Job
 from app.models.task import Task
 from app.workers.tasks import validation_task
