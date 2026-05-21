@@ -1,5 +1,19 @@
 # Real-Time Distributed Task Orchestrator (RT-DTO)
 
+## Architecture Diagram
+
+![Architecture](architecture.png)
+
+## Overview
+
+This project is a high-performance backend orchestration engine built using FastAPI, Celery, Redis, and PostgreSQL.
+
+The system processes multi-step financial transaction jobs in a distributed environment. Each job contains three sequential tasks:
+
+1. Validation
+2. Ledger Update
+3. Notification
+
 ## Overview
 
 This project is a high-performance backend orchestration engine built using FastAPI, Celery, Redis, and PostgreSQL.
