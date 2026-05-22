@@ -1,5 +1,9 @@
 # Real-Time Distributed Task Orchestrator (RT-DTO)
 
+## Project Demo Video
+
+[Watch Project Demo](https://www.loom.com/share/6ddff5fd120a404995b93aceef7ed140)
+
 ## Architecture Diagram
 
 ![Architecture](docs/architecture.png)
